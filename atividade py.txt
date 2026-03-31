@@ -1,0 +1,14 @@
+y = 2
+
+# Condição 1: 4y² + 3y - 5 ≥ 0
+condicao1 = 4 * (y ** 2) + 3 * y - 5
+if condicao1 >= 0:
+    print("Condição 1 é verdadeira")
+else:
+    print("Condição 1 é falsa")
+
+# Condição 2: 2y > 3 OU (y - 1) < 0
+if (2 * y > 3) or ((y - 1) < 0):
+    print("Condição 2 é verdadeira")
+else:
+    print("Condição 2 é falsa")
