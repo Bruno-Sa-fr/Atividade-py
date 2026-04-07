@@ -64,7 +64,7 @@ else:
 a = float(input("Digite o número:"))
 if(a > 0) and (a % 2 == 0):
     print("Par positivo")
-elif(a < 0) and (a % 2 != 0):
+elif(a < 0) and (a % 2 == 0):
     print("Par negativo")
 else:
     print("Ímpar")
